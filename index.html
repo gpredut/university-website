@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+      integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html">
+          <img src="images/logo.png" />
+          <h4>POLITEHNICA Of Bucharest</h4>
+        </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>University POLITEHNICA of Bucharest</h1>
+        <p>
+          We offer award winning teaching and learning combined with excellent
+          industry links and a fantastic student experience, <br />making you a
+          highly skilled and employable graduate engineer.
+        </p>
+        <a href="" class="hero-btn">Visit Us To know More</a>
+      </div>
+    </section>
+
+    <!--Departments-->
+    <section class="department">
+      <h1>Our departments</h1>
+      <p>
+        Our six academic departments possess a range of state-of-the-art
+        facilities, centres and laboratories which enable us to conduct
+        internationally leading research.
+      </p>
+      <div class="row">
+        <div class="department-col">
+          <h3>Automatic Control and Systems Engineering</h3>
+          <p>
+            The only department in the UK dedicated to automation and systems
+            engineering. The academic and research staff are world leaders in
+            the study of autonomous systems, complex systems and signal
+            processing, as well as intelligent systems.
+          </p>
+        </div>
+        <div class="department-col">
+          <h3>Computer Science</h3>
+          <p>
+            Committed to advancing the theoretical foundations of computer
+            science and to achieving impact through close collaboration with end
+            users.
+          </p>
+        </div>
+        <div class="department-col">
+          <h3>Electronic and Electrical Engineering</h3>
+          <p>
+            Turning brilliant ideas into advanced technology, solving real world
+            problems with future facing solutions and a reputation as world
+            leaders in the areas of electromagnetics, semiconductors and
+            communications.
+          </p>
+        </div>
+        <div class="department-col">
+          <h3>Mechanical Engineering</h3>
+          <p>
+            Looking at some of the most challenging issues facing the modern
+            world, such as renewable energy, alternative fuels, strong and
+            lightweight aerospace materials, advanced manufacturing and the
+            mechanics of the human body.
+          </p>
+        </div>
+        <div class="department-col">
+          <h3>Materials Science and Engineering</h3>
+          <p>
+            Bringing together the best bits of chemistry, physics, maths,
+            biology and engineering to find out how they interact. Our research
+            covers the processing, properties and application of materials
+          </p>
+        </div>
+        <div class="department-col">
+          <h3>Chemical and Biological Engineering</h3>
+          <p>
+            Developing solutions to some of the most pressing global challenges,
+            including energy, environment, food, health and water. Research with
+            impact, engagement with industry, a desire to change the world.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Campus-->
+    <section class="campus">
+      <h1>Our Campus</h1>
+      <p>
+        A member of our team of student ambassadors will lead your tour. Feel
+        free to ask your tour guide any questions you may have about student
+        life at Politehnica and they’ll do their best to answer, or point you in
+        the direction of further helpful information.
+      </p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="images/rectorat.jpg" />
+          <div class="layer">
+            <h3>Rectorate Building</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="images/complex-leu.jpg" />
+          <div class="layer">
+            <h3>Leu Complex</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="images/complex-polizu.jpg" />
+          <div class="layer">
+            <h3>Polizu Complex</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Facilities-->
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>
+        University POLITEHNICA of Bucharest offers its international students
+        lots of fun activities for their spare time, to make you feel welcome
+        and get acquainted to the Romanian vibrant way of life.
+      </p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/library.jpg" />
+          <h3>UPB Central Library</h3>
+          <p>
+            UPB's Central Library provides access to scientific information to
+            its users in all study cycles by making available over one million
+            publications covering all fields of study in the university
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/sport.webp" />
+          <h3>Physical education and sport at UPB</h3>
+          <p>
+            The Department of Physical Education, Sports and Physiotherapy
+            offers a broad range of programs, courses and facilities for
+            students who are interested in a healthy lifestyle. Sports
+            competitions, both at national and international level, are an
+            important dimension of the UPB campus live.
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/cafeteria.jpg" />
+          <h3>Cafeterias</h3>
+          <p>
+            University POLITEHNICA of Bucharest provides cafeterias with plenty
+            of dining options with discounted prices for our academic community
+            and visitors. All food is freshly cooked and prepared by our
+            dedicated staff with special attention to quality.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Testimonials-->
+    <section class="testimonials">
+      <h1>What Our Student Says</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iure
+        repellendus aperiam laborum facilis vero, error libero? Quae autem, rem
+        maxime ullam fuga, nam reprehenderit qui illo, quia aliquam animi.
+      </p>
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="images/user1.jpg" />
+          <div>
+            <p>
+              In terms of career development, pursuing Computer Science is
+              definitely a great stage for self-development, getting deep
+              understanding of field knowledge and strong educational background
+              to compete in the future.
+            </p>
+            <h3>Cristina Popescu</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+        </div>
+        <div class="testimonial-col">
+          <img src="images/user2.jpg" />
+          <div>
+            <p>
+              Doing Electrical Engineering you will have the chance to talk and
+              work with a lot of kind people who come from different countries
+              and conduct fascinating research.
+            </p>
+            <h3>Alin Istrate</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Call To Action-->
+
+    <section class="call">
+      <p>
+        ENGINEER YOUR FUTURE! <br /><br />
+        WE INNOVATE THROUGH TECHNOLOGY!
+      </p>
+
+      <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!--Footer-->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        University POLITEHNICA of Bucharest (UPB) assumes the mission to train
+        specialists in different technical fields that are able to use valuable
+        scientific, technical and cultural <br />knowledge, to contribute to the
+        technological, economic and social-cultural progress of the Romanian
+        society and the contemporary world.
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </section>
+
+    <!--JS for toggle menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
